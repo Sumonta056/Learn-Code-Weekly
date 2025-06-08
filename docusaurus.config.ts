@@ -55,7 +55,7 @@ const config: Config = {
     navbar: {
       title: "Learn & Code Weekly",
       logo: {
-        alt: "My Site Logo",
+        alt: "Site Logo",
         src: "img/logo.svg",
       },
       items: [
@@ -67,8 +67,8 @@ const config: Config = {
         },
         { to: "/blog", label: "Articles", position: "left" },
         {
-          href: "https://github.com/sumonta056",
-          label: "Sumonta Saha Mridul (Associate Software Engineer I @Cefalo)",
+          href: "https://sumonta056.vercel.app/",
+          label: "About Me",
           position: "right",
         },
         {
@@ -77,29 +77,34 @@ const config: Config = {
           position: "right",
         },
       ],
+      hideOnScroll: true,
     },
     footer: {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Content",
           items: [
             {
-              label: "Tutorial",
+              label: "Newsletters",
               to: "/docs/intro",
+            },
+            {
+              label: "Articles",
+              to: "/blog",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Connect",
           items: [
             {
               label: "LinkedIn",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              href: "https://www.linkedin.com/in/sumontasaha/",
             },
             {
-              label: "GitHub Discussions",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "GitHub",
+              href: "https://github.com/sumonta056",
             },
           ],
         },
@@ -107,12 +112,8 @@ const config: Config = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "Facebook",
-              href: "https://github.com/facebook/docusaurus",
+              label: "Twitter",
+              href: "https://twitter.com/yourusername",
             },
           ],
         },
@@ -124,6 +125,23 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+  headTags: [
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossorigin: "anonymous",
+      },
+    },
+  ],
 };
 
 export default config;

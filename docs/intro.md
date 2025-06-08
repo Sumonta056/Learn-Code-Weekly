@@ -2,46 +2,36 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Getting Started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+![Learn Code Weekly Newsletter Banner](/img/docusaurus-social-card.png)
 
-## Getting Started
+## Your Weekly Dose of Coding Knowledge
 
-Get started by **creating a new site**.
+Welcome to **Learn-Code-Weekly**, where we break down complex programming concepts into bite-sized, easy-to-understand lessons. Each week, you'll receive curated content designed to help you level up your coding skills, stay informed about the latest tech trends, and join a community of like-minded learners.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### What to Expect
 
-### What you'll need
+- **Tutorial Tuesdays**: Step-by-step guides on building real-world projects
+- **Library Spotlights**: Exploring useful frameworks and libraries you should know about
+- **Career Corner**: Tips and advice for navigating the tech industry
+- **Weekend Challenges**: Fun coding problems to test your skills
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## About Me
 
-## Generate a new site
+Hello! I'm Sumonta Saha Mridul, a passionate developer and educator currently working as an Associate Software Engineer I at Cefalo Bangladesh Ltd. I created this newsletter to share knowledge and help others grow in their programming journey.
 
-Generate a new Docusaurus site using the **classic template**.
+I also run a YouTube channel called **Learn and Code**, where I create content to help aspiring developers enhance their skills and find inspiration in their coding journey.
 
-The classic template will automatically be added to your project after you run the command:
+I believe that coding should be accessible to everyone, and my mission is to break down complex concepts into clear, practical knowledge you can apply immediately. When I'm not coding or creating content, you can find me [your hobbies/interests].
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Let's learn together, one week at a time!
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Stay Connected
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- Subscribe to my [YouTube channel](https://youtube.com/c/learnandcode)
+- Follow me on [Twitter/X](https://twitter.com/yourusername)
+- Connect on [LinkedIn](https://linkedin.com/in/yourprofile)
+- Join our [Discord community](https://discord.gg/yourcommunity)
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Ready to start your learning journey? Scroll down to explore our latest content!
