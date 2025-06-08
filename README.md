@@ -1,41 +1,33 @@
-# Website
+# Welcome to Learn-Code-Weekly
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+![Learn Code Weekly Newsletter Banner](/img/docusaurus-social-card.png)
 
-## Installation
+## Your Weekly Dose of Coding Knowledge
 
-```bash
-yarn
-```
+Welcome to **Learn-Code-Weekly**, where we break down complex programming concepts into bite-sized, easy-to-understand lessons. Each week, you'll receive curated content designed to help you level up your coding skills, stay informed about the latest tech trends, and join a community of like-minded learners.
 
-## Local Development
+### What to Expect
 
-```bash
-yarn start
-```
+- **Tutorial Tuesdays**: Step-by-step guides on building real-world projects
+- **Library Spotlights**: Exploring useful frameworks and libraries you should know about
+- **Career Corner**: Tips and advice for navigating the tech industry
+- **Weekend Challenges**: Fun coding problems to test your skills
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## About Me
 
-## Build
+Hello! I'm Sumonta Saha Mridul, a passionate developer and educator currently working as an Associate Software Engineer I at Cefalo Bangladesh Ltd. I created this newsletter to share knowledge and help others grow in their programming journey.
 
-```bash
-yarn build
-```
+I also run a YouTube channel called **Learn and Code**, where I create content to help aspiring developers enhance their skills and find inspiration in their coding journey.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+I believe that coding should be accessible to everyone, and my mission is to break down complex concepts into clear, practical knowledge you can apply immediately. When I'm not coding or creating content, you can find me [your hobbies/interests].
 
-## Deployment
+Let's learn together, one week at a time!
 
-Using SSH:
+### Stay Connected
 
-```bash
-USE_SSH=true yarn deploy
-```
+- Subscribe to my [YouTube channel](https://youtube.com/c/learnandcode)
+- Follow me on [Twitter/X](https://twitter.com/yourusername)
+- Connect on [LinkedIn](https://linkedin.com/in/yourprofile)
+- Join our [Discord community](https://discord.gg/yourcommunity)
 
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Ready to start your learning journey? Scroll down to explore our latest content!

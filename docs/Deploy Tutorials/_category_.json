@@ -1,0 +1,8 @@
+{
+  "label": "Tutorial - Deploy",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn useful tips and tricks for deploying your site"
+  }
+}
