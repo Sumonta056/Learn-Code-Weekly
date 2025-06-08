@@ -1,6 +1,6 @@
 # Welcome to Learn-Code-Weekly
 
-![Learn Code Weekly Newsletter Banner](/img/docusaurus-social-card.png)
+![Learn Code Weekly Newsletter Banner](./static/img/docusaurus-social-card.png)
 
 ## Your Weekly Dose of Coding Knowledge
 
