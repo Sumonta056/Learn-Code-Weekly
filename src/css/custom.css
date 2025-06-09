@@ -190,17 +190,103 @@ blockquote {
   background: rgba(255, 255, 255, 0.05);
 }
 
-/* Responsive improvements */
-@media screen and (max-width: 768px) {
-  .hero__title {
-    font-size: 2rem;
-  }
+/* Enhanced sidebar styling */
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--ifm-toc-border-color);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  background-color: var(--ifm-background-surface-color);
+}
 
-  .hero__subtitle {
-    font-size: 1.1rem;
-  }
+/* Improved category headers in sidebar */
+.theme-doc-sidebar-item-category > .menu__link {
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--ifm-color-primary-darkest);
+  padding-top: 1rem;
+}
 
-  article {
-    font-size: 1rem;
+/* Enhanced sidebar item styling */
+.menu__link {
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+  margin: 0.15rem 0;
+  padding: 0.6rem 0.8rem;
+}
+
+.menu__link:hover {
+  background-color: var(--ifm-menu-color-background-active);
+  color: var(--ifm-color-primary);
+}
+
+.menu__link--active {
+  font-weight: 600;
+}
+
+/* Improve sidebar category collapsible styling */
+.menu__list-item-collapsible:hover {
+  background-color: var(--ifm-menu-color-background-hover);
+}
+
+.markdown > h1:first-child {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  font-size: 1rem;
+}
+
+.markdown > h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem !important;
+}
+
+.markdown > h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.markdown > p,
+.markdown > ul,
+.markdown > ol {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+/* Create more visual breathing room between sections */
+.theme-doc-markdown {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Enhance doc item layout */
+.docItemContainer {
+  padding: 2;
+}
+
+.title_f1Hy {
+  font-size: 2rem !important; /* Fixed syntax error */
+}
+
+.docusaurus-mt-lg {
+  margin-top: 1rem !important;
+}
+
+.table-of-contents__link:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.table-of-contents__link--active {
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
+
+/* Responsive adjustments for newsletter content */
+@media (max-width: 996px) {
+  .theme-doc-markdown {
+    padding: 1.5rem 1rem;
   }
 }

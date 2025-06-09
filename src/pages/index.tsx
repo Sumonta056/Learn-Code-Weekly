@@ -5,8 +5,7 @@ import Heading from "@theme/Heading";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import type { ReactNode } from "react";
-
-import styles from "./index.module.css";
+import styles from "./../css/index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();

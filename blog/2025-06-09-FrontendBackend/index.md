@@ -2,7 +2,7 @@
 title: How to Run Frontend & Backend Together with One Command (No Docker Needed)
 slug: frontend-backend-one-command
 authors: [sumonta056]
-tags: [frontend, backend, automation, vscode, powershell]
+tags: [frontend, backend, automation, vs-code, powershell]
 image: https://i.imgur.com/mErPwqL.png
 hide_table_of_contents: true
 ---

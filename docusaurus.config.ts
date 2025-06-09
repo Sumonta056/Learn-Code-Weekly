@@ -28,11 +28,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
-          showReadingTime: true, // When set to false, the "x min read" won't be shown
+          showReadingTime: true,
           readingTime: ({ content, locale, frontMatter, defaultReadingTime }) =>
             defaultReadingTime({
               content,
@@ -43,8 +41,6 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
@@ -59,11 +55,31 @@ const config: Config = {
 
   themeConfig: {
     image: "img/docusaurus-social-card.png",
+    docs: {
+      versionPersistence: "localStorage",
+      sidebar: {
+        hideable: false,
+        autoCollapseCategories: false,
+      },
+    },
+    metadata: [
+      {
+        name: "keywords",
+        content:
+          "Learn & Code Weekly, tech newsletter, software engineering, coding, web development, distributed systems, cloud architecture, tech writing",
+      },
+      {
+        name: "description",
+        content:
+          "Join me every week as I share my journey through the world of tech, coding, life lessons & interesting facts!",
+      },
+    ],
+
     navbar: {
       title: "Learn & Code Weekly",
       logo: {
         alt: "Site Logo",
-        src: "img/logo.svg",
+        src: "img/icon.jpg",
       },
       items: [
         {
@@ -74,8 +90,13 @@ const config: Config = {
         },
         { to: "/blog", label: "Articles", position: "left" },
         {
-          href: "https://sumonta056.vercel.app/",
+          href: "/about",
           label: "About Me",
+          position: "right",
+        },
+        {
+          href: "/donate",
+          label: "Donate",
           position: "right",
         },
         {
@@ -84,7 +105,7 @@ const config: Config = {
           position: "right",
         },
       ],
-      hideOnScroll: true,
+      hideOnScroll: false,
     },
     footer: {
       style: "dark",

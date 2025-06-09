@@ -7,19 +7,11 @@ image: https://i.imgur.com/mErPwqL.png
 hide_table_of_contents: true
 ---
 
+import { Highlight } from "@site/src/components/Highlight";
+
 Welcome to this blog. This blog is created with [**Docusaurus**](https://docusaurus.io/).
 
-<!-- truncate -->
-
-This is my first post on Docusaurus.
-
-A whole bunch of exploration to follow.
-
-Lorem ipsum dolor sit amet...
-
-<!-- truncate -->
-
-...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+{/* truncate */}
 
 ### Details element example
 
@@ -37,12 +29,12 @@ You can use Markdown here including **bold** and _italic_ text, and [inline link
 </details>
 
 :::tip
-
 Use the power of React to create interactive blog posts.
-
 :::
 
-{/_ truncate _/}
+:::danger[Take care]
+This action is dangerous
+:::
 
 For example, use JSX to create an interactive button:
 
@@ -50,4 +42,6 @@ For example, use JSX to create an interactive button:
 <button onClick={() => alert("button clicked!")}>Click me!</button>
 ```
 
-<button onClick={() => alert('button clicked!')}>Click me!</button>
+This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
+
+This is <Highlight color="#1877F2">Facebook blue</Highlight> !

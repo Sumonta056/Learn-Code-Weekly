@@ -1,6 +1,7 @@
 {
   "label": "Weekly Newsletter",
   "position": 2,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "A weekly newsletter with the latest updates, tips, and resources for developers."
