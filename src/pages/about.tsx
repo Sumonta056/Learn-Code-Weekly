@@ -32,7 +32,9 @@ export default function About() {
               />
             </div>
             <h1 className={styles.name}>Sumonta Saha Mridul</h1>
-            <div className={styles.title}>Software Engineer & Tech Writer</div>
+            <div className={styles.title}>
+              Associate Software Engineer & Newsletter Writer
+            </div>
             <div className={styles.socialLinks}>
               <a
                 href="https://github.com/sumonta056"
@@ -53,27 +55,32 @@ export default function About() {
                 <i className="fa-brands fa-linkedin"></i>
               </a>
               <a
-                href="https://facebook.com/yourusername"
+                href="https://sumonta-dev-portfolio.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.socialIcon}
-                aria-label="facebook"
+                aria-label="Portfolio"
               >
-                <i className="fa-brands fa-facebook"></i>
+                <i className="fa-solid fa-globe"></i>
               </a>
             </div>
             <div className={styles.profileButtons}>
-              <a href="/newsletter" className={styles.profileButton}>
-                <i className="fa-solid fa-envelope-open-text"></i> Subscribe to
-                Newsletter
-              </a>
               <a
-                href="https://youtube.com/yourchannel"
+                href="https://www.linkedin.com/newsletters/learn-code-weekly-7309186050084544512/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.profileButton}
               >
-                <i className="fa-brands fa-youtube"></i> YouTube Channel
+                <i className="fa-solid fa-envelope-open-text"></i> Subscribe to
+                Newsletter
+              </a>
+              <a
+                href="https://sumonta-dev-portfolio.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.profileButton}
+              >
+                <i className="fa-solid fa-user"></i> View Portfolio
               </a>
             </div>
           </div>
@@ -82,18 +89,26 @@ export default function About() {
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>About Me</h2>
               <p>
-                Welcome to Learn & Code Weekly! I'm a passionate software
-                engineer with expertise in web development, distributed systems,
-                and cloud architecture. Through this platform, I share my
-                journey in tech, insights from projects I work on, and lessons I
-                learn along the way.
+                Hi, I'm Sumonta Saha Mridul! I'm currently working as an{" "}
+                <strong>Associate Software Engineer I</strong> at{" "}
+                <strong>Cefalo Bangladesh Ltd</strong>. I am the writer of the
+                <strong>Learn & Code</strong> Newsletter, with{" "}
+                <strong>400+ weekly subscribers</strong> who join me on this
+                exciting journey through the world of technology.
               </p>
               <p>
-                With over [X] years of experience in the industry, I've worked
-                on various projects from startup MVPs to enterprise-level
-                applications. I'm particularly interested in [your specific
-                interests], and I love exploring new technologies that push the
-                boundaries of what's possible.
+                I'm passionate about sharing knowledge on software engineering,
+                internships, and interview preparation. Currently, I'm pursuing
+                my Bachelor's degree in <strong>Software Engineering</strong> at
+                Shahjalal University of Science and Technology{" "}
+                <strong>(SUST)</strong>. Through this platform, I share
+                practical insights from my professional experience, lessons
+                learned from real-world projects.
+              </p>
+              <p>
+                Whether you're a fellow developer, a student preparing for
+                interviews, or someone curious about the tech industry, I hope
+                you'll find valuable insights and inspiration here!
               </p>
             </section>
 
@@ -102,15 +117,15 @@ export default function About() {
               <div className={styles.expertiseGrid}>
                 <div className={styles.expertiseItem}>
                   <h3>Frontend Development</h3>
-                  <p>React, Next.js, TypeScript</p>
+                  <p>React, Next.js, TypeScript, Tailwind CSS, Tanstack Query, Vanila JS</p>
                 </div>
                 <div className={styles.expertiseItem}>
                   <h3>Backend Development</h3>
-                  <p>Node.js, Express, Java, Spring Boot</p>
+                  <p>Node.js, Express, Nest.js, MySQL, PostgreSQL, MongoDB, Python</p>
                 </div>
                 <div className={styles.expertiseItem}>
                   <h3>Cloud & DevOps</h3>
-                  <p>AWS, Docker, CI/CD</p>
+                  <p>Git, Github, Docker, CI/CD</p>
                 </div>
                 <div className={styles.expertiseItem}>
                   <h3>Technical Writing</h3>
@@ -121,18 +136,29 @@ export default function About() {
 
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>Newsletter Purpose</h2>
-              <p>Through Learn & Code Weekly, I aim to share:</p>
+              <p>
+                Through Learn & Code Weekly (400+ subscribers), I aim to share:
+              </p>
               <ul className={styles.purposeList}>
                 <li>
-                  Practical coding tutorials and solutions to common problems
+                  Practical software engineering insights from industry
+                  experience
                 </li>
-                <li>Insights into software architecture and design patterns</li>
-                <li>Reviews of tools and technologies I find useful</li>
+                <li>
+                  Comprehensive guides for internship and interview preparation
+                </li>
+                <li>
+                  Real-world coding tutorials and solutions to common problems
+                </li>
                 <li>
                   Career advice and lessons learned from my professional journey
                 </li>
                 <li>
-                  Interesting facts from the world of technology and beyond
+                  Tips for computer science students and aspiring developers
+                </li>
+                <li>
+                  Interesting discoveries from the world of technology and
+                  beyond
                 </li>
               </ul>
             </section>
