@@ -104,6 +104,11 @@ const config: Config = {
           label: "GitHub",
           position: "right",
         },
+        {
+          href: "https://www.linkedin.com/newsletters/learn-code-weekly-7309186050084544512/",
+          label: "Subscribe",
+          position: "right",
+        },
       ],
       hideOnScroll: false,
     },
