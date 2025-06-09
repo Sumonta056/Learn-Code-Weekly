@@ -32,7 +32,13 @@ const config: Config = {
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: true, // When set to false, the "x min read" won't be shown
+          readingTime: ({ content, locale, frontMatter, defaultReadingTime }) =>
+            defaultReadingTime({
+              content,
+              locale,
+              options: { wordsPerMinute: 300 },
+            }),
           feedOptions: {
             type: ["rss", "atom"],
             xslt: true,
@@ -42,6 +48,7 @@ const config: Config = {
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
+          blogSidebarCount: 5,
         },
         theme: {
           customCss: "./src/css/custom.css",

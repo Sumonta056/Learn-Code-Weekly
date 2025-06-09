@@ -17,3 +17,38 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+frontend:
+  label: Frontend
+  permalink: /frontend
+  description: Frontend development topics and tutorials
+
+backend:
+  label: Backend
+  permalink: /backend
+  description: Backend development topics and tutorials
+
+automation:
+  label: Automation
+  permalink: /automation
+  description: Tools and techniques for automating development workflows
+
+vs-code:
+  label: VS Code
+  permalink: /vs-code
+  description: Tips and extensions for Visual Studio Code
+
+powershell:
+  label: PowerShell
+  permalink: /powershell
+  description: PowerShell scripting tutorials and commands
+
+cmd:
+  label: CMD
+  permalink: /cmd
+  description: Command line tips for Windows users
+
+docusaurus-v2:
+  label: Docusaurus v2
+  permalink: /docusaurus-v2
+  description: Posts about Docusaurus version 2
